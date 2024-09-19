@@ -1,14 +1,15 @@
 import { IOClients } from '@vtex/api'
 
-import { BookClient } from './book'
-import { MarkdownClient } from './markdown'
+import ViaCep from './viaCep'
+import Status from './status'
 
+// Extend the default IOClients implementation with our own custom clients.
 export class Clients extends IOClients {
-  public get book() {
-    return this.getOrSet('book', BookClient)
+  public get status() {
+    return this.getOrSet('status', Status)
   }
 
-  public get markdown() {
-    return this.getOrSet('markdown', MarkdownClient)
+  public get viaCep() {
+    return this.getOrSet('viaCep', ViaCep)
   }
 }
