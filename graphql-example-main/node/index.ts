@@ -1,10 +1,10 @@
 import type { ParamsContext, RecorderState, ServiceContext } from '@vtex/api'
 import { Service } from '@vtex/api'
 
-import { Clients } from './clients'
-import { queries as searchCep } from './resolvers/searchCep'
+import { Clients } from './clients/index'
+import { searchCep } from './resolvers/searchCep'
 
-const MEDIUM_TIMEOUT_MS = 5 * 1000
+const MEDIUM_TIMEOUT_MS = 2 * 1000
 
 declare global {
   // We declare a global Context type just to avoid re-writing ServiceContext<Clients, State> in every handler and resolver
@@ -24,7 +24,7 @@ export default new Service<Clients, RecorderState, ParamsContext>({
   graphql: {
     resolvers: {
       Query: {
-        ...searchCep
+        searchCep
       }
     },
   },
