@@ -8,6 +8,7 @@
     "@types/ramda": "types/npm-ramda#dist",
     "@vtex/api": "6.47.0",
     "@vtex/tsconfig": "^0.5.6",
+    "avantiinnovationclass.graphql-example": "https://ic10rafaelvieira--avantiinnovationclass.myvtex.com/_v/private/typings/linked/v1/avantiinnovationclass.graphql-example@0.3.0+build1726842820/public/@types/avantiinnovationclass.graphql-example",
     "typescript": "3.9.7"
   },
   "scripts": {

@@ -296,6 +296,10 @@ async@^2.6.3:
   dependencies:
     lodash "^4.17.14"
 
+"avantiinnovationclass.graphql-example@https://ic10rafaelvieira--avantiinnovationclass.myvtex.com/_v/private/typings/linked/v1/avantiinnovationclass.graphql-example@0.3.0+build1726842820/public/@types/avantiinnovationclass.graphql-example":
+  version "0.3.0"
+  resolved "https://ic10rafaelvieira--avantiinnovationclass.myvtex.com/_v/private/typings/linked/v1/avantiinnovationclass.graphql-example@0.3.0+build1726842820/public/@types/avantiinnovationclass.graphql-example#aaec51a132766670e4a4c9ad503e9eac1d5f4cbf"
+
 axios-retry@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/axios-retry/-/axios-retry-3.1.2.tgz#4f4dcbefb0b434e22b72bd5e28a027d77b8a3458"

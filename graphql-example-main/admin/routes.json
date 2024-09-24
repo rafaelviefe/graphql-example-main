@@ -1,0 +1,9 @@
+{
+    "admin.app.example": {
+        "component": "Form",
+        "path": "/admin/app/form-cep",
+        "content": {
+            
+        }
+    }
+}

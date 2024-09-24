@@ -1,0 +1,7 @@
+query GetCepData($cep: String) {
+  searchCep(cep: $cep) {
+    cep
+    logradouro
+    bairro
+  }
+}
